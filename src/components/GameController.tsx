@@ -1,10 +1,9 @@
 import React from "react";
+import GameWindow from "./GameWindow";
 
 const GameController = (props: any) => {
     return (
-        <div className="main_window">
-            <p>This is the main window!</p>
-        </div>
+        <GameWindow />
     );
 }
 
