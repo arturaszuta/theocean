@@ -1,17 +1,22 @@
 import React from "react";
+
+import ActionPanel from "./ActionPanel";
+import Logger from "./Logger";
+import Inventory from "./Inventory";
+
 import "../styles/_gameWindow.scss"
 
 const GameWindow = (props: any) => {
     return (
         <div className="main_window">
             <div className="left_panel">
-                <p>???</p>
+                <ActionPanel />
             </div>
             <div className="center_panel">
-                <p>???</p>
+                <Logger />
             </div>
             <div className="right_panel">
-                <p>???</p>
+                <Inventory />
             </div>
         </div>
     );

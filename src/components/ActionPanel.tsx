@@ -2,7 +2,7 @@ import React from "react";
 
 const ActionPanel = () => {
     return (
-        <div>
+        <div className="action_panel">
             <p>Action Panel</p>
         </div>
     )

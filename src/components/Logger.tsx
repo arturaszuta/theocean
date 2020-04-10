@@ -2,8 +2,8 @@ import React from "react";
 
 const Logger = () => {
     return (
-        <div>
-            <p>Inventory</p>
+        <div className="logger_panel">
+            <p>Logger</p>
         </div>
     )
 }

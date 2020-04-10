@@ -8,7 +8,9 @@ function App(props: any) {
   const { dispatch } = props;
   return (
     <div className="App">
-      <GameController /> 
+      <GameController
+        dispatch={dispatch}
+      /> 
     </div>
   );
 }
